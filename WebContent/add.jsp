@@ -6,7 +6,7 @@
 <%
 	request.setCharacterEncoding("UTF-8");
 	String name = request.getParameter("name");
-	String password = request.getParameter("pass");
+	String password = request.getParameter("password");
 	String content = request.getParameter("content");
 	
 	GuestbookVo vo = new GuestbookVo(name, password, content);
